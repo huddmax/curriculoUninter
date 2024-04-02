@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+}
+
+* {
+    /* resetando as configurações da pagina */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* melhoranod o visual */
+    font-family: 'Epilogue', sans-serif;
+    background-color: #ECE9FD;
+    font-size: 18px;
+    color: #090039;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    height: 600px;
+}
+
+a {
+    font-size: 24px;
+    background-color: #ccc5f3;
+}
+
+a:hover {
+    color: #7158EF;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ccc5f3;
+}
